@@ -6,11 +6,11 @@ O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backen
 
 ## Endereço de Deploy - GitHub Pages
 
-https://utfpr-gp.github.io/roubank-css/
+    https://github.com/yuutokolanz/anime-list-organizer
 
 ## Protótipo
 
-https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80
+https://www.figma.com/file/caKBY1FshNOfM1NtFnuHD2/projeto-anime-list-organizer?type=design&node-id=0%3A1&mode=design&t=3Ae2PrpIllAQadFJ-1
 
 ## Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
