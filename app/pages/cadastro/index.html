@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/app/util/variables.css">
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body >
+  <div class="container-fluid fundo-cinza">
+    <img class="img-fluid logo" src="/assets/resources/images/Logo Completo.svg" alt="Hiragana de a, com Anime Archiver escrito em baixo">
+  </div>
+  <main class="fundo-anime container text-white">
+
+    <p class="text-center fw-bolder texto-contorno texto-login">Cadastro</p>
+
+    <form id="cadastro" class="container fundo-cinza">
+      <div class="mb-3">
+        <label for="nameComplete" class="form-label">Nome Completo</label>
+        <input type="text" class="form-control" id="nameComplete" placeholder="Seu nome" autofocus required>
+      </div>
+      <div class="mb-3">
+        <label for="username" class="form-label">Nome de Usuário</label>
+        <input type="text" class="form-control" id="username" placeholder="Seu nome de usuário" required>
+      </div>
+      <div class="mb-3">
+        <label for="userEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="userEmail" placeholder="email@email.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="password class="form-label">Senha</label>
+        <input type="password" class="form-control" id="password" placeholder="Sua senha" required>
+        <span id="senhaErrada" class="senhaErrada"></span>
+      </div>
+      <button type="submit" id="cadastrar" class="btn btn-primary btn-lg" onclick="">Cadastrar</button>
+    </form>
+  
+    <p class="text-center fw-bold texto-contorno">Mude agora a maneira que você vê seus animes</p>
+  </main>
+  <script src="cadastro.js"></script>
+</body>
+</html>

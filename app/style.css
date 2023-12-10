@@ -1,0 +1,56 @@
+.fundo-cinza{
+  background-color: #3A3A3A;
+  margin-bottom: 40px;
+}
+
+.logo-nav{
+  width: 45px;
+}
+
+.texto-contorno{
+  font-size: 40px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--primary);
+}
+
+#bemvindo{
+  font-size: 28px;
+}
+
+.anime{
+  background: #919191;
+  padding: 10px;
+  width: 300px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.excluir, .addEpisodio{
+  cursor: pointer;
+}
+
+.bg-primario, .btn-primario{
+  background-color: var(--primary);
+}
+
+.btn-primario:hover{
+  background-color: #A80700;
+}
+
+.text-danger{
+  font-size: 32px;
+}
+
+.listaAnimes{
+  margin: 5px;
+  padding: 10px;
+  border-bottom: #3A3A3A 1px solid;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: var(--primary);
+}
+
+.listaAnimes:hover{
+  background-color: #A80700;
+}

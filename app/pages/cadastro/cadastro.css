@@ -1,0 +1,67 @@
+body{ 
+  background: url(/assets/resources/images/fundoAnimeEscuro.png) repeat;
+}
+
+.logo{
+  height: 120.21px;
+  width: 176px;
+}
+
+.fundo-anime{
+  background: url(/assets/resources/images/fundoAnimeEscuro.png) repeat;
+}
+
+.fundo-cinza{
+  background-color: #3A3A3A;
+  margin-bottom: 40px;
+}
+
+form.fundo-cinza{
+  padding: 20px;
+}
+
+.ou{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+button{
+  width: 100%;
+}
+
+.texto-contorno{
+  font-size: 32px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--primary);
+}
+
+.texto-login{
+  font-size: 40px;
+}
+
+.btn-primary{
+  background-color: var(--primary);
+  --bs-btn-border-color: var(--primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #AB0700;
+  --bs-btn-hover-border-color: #FF0D00;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #910700;
+  --bs-btn-active-border-color: #910700;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.form-control{
+  background-color: #919191;
+  border: var(--bs-border-width) solid var(--primary);
+}
+
+.senhaErrada , .senhasDiferentes{
+  color: red;
+  text-decoration: solid underline red;
+}

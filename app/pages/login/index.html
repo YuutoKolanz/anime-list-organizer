@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="/app/util/variables.css">
+</head>
+<body >
+  <div class="container-fluid fundo-cinza">
+    <img class="img-fluid logo" src="/assets/resources/images/Logo Completo.svg" alt="Hiragana de a, com Anime Archiver escrito em baixo">
+  </div>
+  <main class="fundo-anime container text-white">
+
+    <p class="text-center fw-bolder texto-contorno texto-login">Login</p>
+
+    <form id="login" class="container fundo-cinza">
+      <div class="mb-3">
+        <label for="username" class="form-label">Nome de Usuário</label>
+        <input type="text" class="form-control" id="username" placeholder="Seu nome de usuário" autofocus required>
+      </div>
+      <div class="mb-3">
+        <label for="password class="form-label">Senha</label>
+        <input type="password" class="form-control" id="password" placeholder="Sua senha" pattern=".{8,}" required>
+      </div>
+      <div id="loginIncorreto"></div>
+      <div class="mb-3 form-check">
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Login</button>
+      <p class="text-center ou">OU</p>
+      <button type="button" id="mudarParaCadastro" class="btn btn-primary btn-lg">Cadastre-se</button>
+    </form>
+  
+    <p class="text-center fw-bold texto-contorno">Seus animes organizados como nunca</p>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
