@@ -2,10 +2,6 @@ $$ = function(id){
   return document.getElementById(id);
 };
 
-$(document).ready(function () {
-  $("img.lazy").lazyLoadXT();
-});
-
 $(document).ready(function(){
   let usuario = localStorage.getItem("username");
   if (usuario === String) {
