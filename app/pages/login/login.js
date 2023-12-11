@@ -17,6 +17,7 @@ document.getElementById("login").addEventListener("submit", function(event){
   console.log(passwordStorage);
 
   if(usernameLogin == usernameStorage && passwordLogin == passwordStorage){
+    localStorage.setItem("isLoged", true);
     window.location.href = "../../index.html";
   } else {
     loginErrado.innerHTML = "Usuário ou senha incorretos."

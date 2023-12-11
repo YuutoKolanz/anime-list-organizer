@@ -8,9 +8,32 @@ $(document).ready(function () {
 
 $(document).ready(function(){
   let usuario = localStorage.getItem("username");
+  if (usuario === String) {
+    usuario = "";
+  }
   $$("bemvindo").innerHTML = `Olá ${usuario}`;
   $$("sidebarTitle").innerHTML = `Olá ${usuario}`
+  let isLoged = Boolean(localStorage.getItem("isLoged"));
+  if (isLoged) {
+    let btnLogin = document.querySelector("#btnLogin");
+    btnLogin.textContent = "Sair";
+    btnLogin.id = "btnSair";
+    
+    let btnSair = document.querySelector("#btnSair");
+    btnSair.addEventListener("click", function(){
+     localStorage.setItem("isLoged", false);
+    window.location.href = "/app/pages/login/index.html";
 });
+
+  }
+});
+
+
+let btnLogin = document.querySelector("#btnLogin");
+btnLogin.addEventListener("click", function(){
+  window.location.href = "/pages/login/index.html";
+});
+
 
 // chaves rapid api
 // 8f10c46cc4msh30c9b0ac64b9be8p142703jsn38287dc96274
